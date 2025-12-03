@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio, Hoàng, Kaggle, GitHub, Machine Learning, Data Analyst">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../icon/portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../lib/js/bootstrap.bundle.js"></script>
+    <script src="../scripts/change_theme.js"></script>
+
+    
+</head>
+
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 p-3 bg-white border-end">
+                <div class="text-center" style="margin:20px;">
+                    <img src="../icon/user.png" class="img-fluid w-75" alt="User icon">
+                </div>
+
+                <!-- Thông tin cá nhân -->
+                <h1>Thông tin cá nhân</h1>
+                <table class="table table-borderless">
+                    <tr>
+                        <td>Họ và tên</td>
+                        <td><strong>Bùi Thanh Hoàng</strong></td>
+                    </tr>
+
+                    <tr>
+                        <td>Vai trò</td>
+                        <td><strong>Data Enthusiast</strong> - Yêu thích dữ liệu, đang học và thực hành</td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td class="text-break">
+                            <a href="mailto:bui.thanh.hoang.13112004@gmail.com">bui.thanh.hoang.13112004@gmail.com</a>
+                        </td>
+                    </tr>
+
+                     <tr>
+                        <td>Outlook</td>
+                        <td class="text-break">
+                            <a href="mailto:bui.thanh.hoang.13112004@outlook.com">bui.thanh.hoang.13112004@outlook.com</a>
+                        </td>
+                    </tr>                   
+
+                    <tr>
+                        <td>Github</td>
+                        <td><a href="https://github.com/Thomas131104">Thomas131104</a></td>
+                    </tr>
+                    <tr>
+                        <td>Kaggle</td>
+                        <td><a href="https://www.kaggle.com/gottagotellperiod">Kaggle Profile</a></td>
+                    </tr>
+                </table>
+
+
+                <!-- Các icon -->
+                <div class="d-flex flex-wrap justify-content-center gap-5">
+                    <a href="#" onclick="changeTheme(); return false" data-bs-toggle="tooltip" data-bs-placement="top" title="Đổi theme">
+                        <img src="../icon/change-theme.png" class="img-fluid" style="max-width: 32px;" alt="Change Theme">
+                    </a>
+
+                    <a href="mailto:bui.thanh.hoang.13112004@gmail.com">
+                        <img src="../icon/gmail.png" class="img-fluid" style="max-width: 32px;" alt="Gmail" data-bs-toggle="tooltip" data-bs-placement="top" title="Gửi mail qua Gmail">
+                    </a>
+
+                    <a href="mailto:bui.thanh.hoang.13112004@outlook.com">
+                        <img src="../icon/outlook.png" class="img-fluid" style="max-width: 32px;" data-bs-toggle="tooltip" data-bs-placement="top" title="Gửi mail qua Outlook">
+                    </a>
+
+                    <a href="https://github.com/Thomas131104">
+                        <img src="../icon/github.png" class="img-fluid" style="max-width: 32px;" alt="GitHub" data-bs-toggle="tooltip" data-bs-placement="top" title="Github của tôi">
+                    </a>
+
+                    <a href="https://www.kaggle.com/gottagotellperiod">
+                        <img src="../icon/kaggle.png" class="img-fluid" style="max-width: 32px;" alt="Kaggle" data-bs-toggle="tooltip" data-bs-placement="top" title="Kaggle của tôi">
+                    </a>
+
+                    <a href="https://open.spotify.com/user/31vilqqn6fh566yto2bjimtswedu">
+                        <img src="../icon/spotify.png" class="img-fluid" style="max-width: 32px;" alt="Spotify" data-bs-toggle="tooltip" data-bs-placement="top" title="Spotify của tôi">
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-8 p-4">
+                <header class="mb-4">
+                    <h1 class="text-primary">Dự án</h1>
+                </header>
+
+                <main>
+                    <div class="menu-button-wrapper text-end">
+                        <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuSidebar" aria-controls="menuSidebar" title="Menu">
+                            <img src="../icon/menu.png" style="width: 80%; height: 24px; border: 2px; background-color: bisque;">
+                        </button>
+                    </div>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="menuSidebar" aria-labelledby="menuSidebarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="menuSidebarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Đóng"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="nav nav-pills flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="achivement.html">Thành tích & Học vấn</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active disabled" aria-disabled="true">Dự án</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="playlist.html">Playlist âm nhạc</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- Nội dung chính -->
+                    <section>
+                        
+                        
+                    </section>
+                </main>
+
+                <footer class="text-muted mt-5">
+                    <hr>
+                    <p>By Mus aka Hoàng Bùi</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

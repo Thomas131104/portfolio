@@ -1,0 +1,185 @@
+header, footer{
+    text-align: center;
+    background-color: #b2f2b2;
+    margin: 5px 5px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+main{
+    background-color: white;
+}
+
+
+/* Nền và chữ toàn trang */
+.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Sidebar bên trái */
+.dark-theme .bg-white {
+    background-color: #1e1e1e !important;
+    color: #f0f0f0 !important;
+}
+
+/* Cột bên phải */
+.dark-theme .col-8 {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Đổi màu các tiêu đề và đoạn văn */
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme p,
+.dark-theme td,
+.dark-theme th,
+.dark-theme strong {
+    color: #f0f0f0;
+}
+
+/* Đổi màu link */
+.dark-theme a {
+    color: #90caf9;
+}
+
+/* Đổi màu các phần có class Bootstrap */
+.dark-theme .text-muted {
+    color: #cccccc !important;
+}
+
+.dark-theme .text-primary {
+    color: #90caf9 !important;
+}
+
+.dark-theme .bg-light {
+    background-color: #121212 !important;
+    color: #f0f0f0 !important;
+}
+
+/* Card nếu có dùng */
+.dark-theme .card {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #333;
+}
+
+
+/* Cột thứ hai: phần nội dung chính */
+.dark-theme .col-8,
+.dark-theme main {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+/* Đổi màu cho tiêu đề trong cột này */
+.dark-theme .col-8 h1,
+.dark-theme .col-8 h2,
+.dark-theme .col-8 h3 {
+    color: #ffffff;
+}
+
+/* Đổi màu cho đoạn văn, bảng, footer */
+.dark-theme .col-8 p,
+.dark-theme .col-8 td,
+.dark-theme .col-8 th,
+.dark-theme .col-8 strong {
+    color: #f0f0f0;
+}
+
+/* Đổi màu cho đường kẻ footer */
+.dark-theme .col-8 hr {
+    border-color: #444;
+}
+
+/* Đổi màu cho card nếu có dùng */
+.dark-theme .col-8 .card {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #444;
+}
+
+/* Header trong cột 2 */
+.dark-theme .col-8 header {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+/* Footer trong cột 2 */
+.dark-theme .col-8 footer {
+    background-color: #1e1e1e;
+    color: #cccccc;
+}
+
+/* Đổi màu đường kẻ trong footer */
+.dark-theme .col-8 footer hr {
+    border-color: #444;
+}
+
+.dark-theme #about {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+.dark-theme #about h2{
+    color: lightgreen !important;
+}
+
+.dark-theme .menu-button-wrapper {
+  background-color: #1e1e1e;
+}
+
+
+.dark-theme .offcanvas {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark-theme .offcanvas-header {
+  border-bottom: 1px solid #444;
+}
+
+.dark-theme .offcanvas-title {
+  color: #f0f0f0;
+}
+
+.dark-theme .offcanvas-body {
+  color: #f0f0f0;
+}
+
+.dark-theme .nav-link {
+  color: #90caf9;
+}
+
+.dark-theme .nav-link.active {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.dark-theme .btn-close {
+  filter: brightness(0) invert(1);
+}
+
+/* Nút menu trong theme tối */
+.dark-theme .menu-toggle {
+  background-color: #2a2a2a !important;
+  color: #f0f0f0 !important;
+  border: 1px solid #555 !important;
+}
+
+/* Icon trong nút menu */
+.dark-theme .menu-toggle img {
+  background-color: transparent !important;
+  filter: brightness(0) invert(1); /* chuyển icon sang trắng nếu gốc là đen */
+  border: none;
+}
+
+.dark-theme section, .dark-theme summary {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
