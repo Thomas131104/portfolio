@@ -37,3 +37,9 @@ async def send_mail(
     await db.commit()
     await db.refresh(db_mail)
     return {"message": "Mail đã được lưu!", "id": db_mail.id}
+
+
+@api.get("/users")
+async def get_users(db: AsyncSession = Depends(get_db)):
+    result = await db.execute(select(Mail))
+    return result.scalars().all()
